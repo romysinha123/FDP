@@ -4,7 +4,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
 # --- UI Setup ---
-st.set_page_config(page_title="Personalized AI Assistant", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="Romy ChatBOT", page_icon="🤖", layout="centered")
 st.markdown("<h1 style='text-align: center;'>💬 Personalized AI Assistant</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
