@@ -5,7 +5,7 @@ from langchain.chains import ConversationChain
 
 # --- UI Setup ---
 st.set_page_config(page_title="Romy ChatBOT", page_icon="🤖", layout="centered")
-st.markdown("<h1 style='text-align: center;'>💬 Personalized AI Assistant</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>💬 Romy ChatBOT</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
 api_key = st.secrets["CHATGROQ_API_KEY"]  # Use st.secrets for production
